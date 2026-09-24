@@ -6,7 +6,8 @@
     "CowEntityMixinFabric",
     "DecoratedPotPatternsMixin",
     "MobCategoryMixin",
-    "ServerLevelMixinFabric"
+    "ServerLevelMixinFabric",
+    "FogTypeInvoker"
   ],
   "injectors": {
     "defaultRequire": 1
@@ -14,6 +15,7 @@
   "client": [
     "HeartTypeMixinFabric",
     "client.EffectInstanceMixinFabric",
-    "client.FogRendererMixin"
+    "client.FogRendererMixin",
+    "client.CameraMixin"
   ]
 }
